@@ -90,7 +90,7 @@ def myMessages(sess):
     return
 
 
-def report(sess, t, xiaoqu='宝山', temperature=37):
+def report(sess, t, xiaoqu='不在校', temperature=37):
     ii = '1' if t.hour < 19 else '2'
     if xiaoqu == '宝山':
         xian = '宝山区'
@@ -98,6 +98,8 @@ def report(sess, t, xiaoqu='宝山', temperature=37):
         xian = '嘉定区'
     elif xiaoqu == '延长':
         xian = '静安区'
+    elif xiaoqu == '不在校'
+        xian = '浦东新区'
 
     url = f'https://selfreport.shu.edu.cn/XueSFX/HalfdayReport.aspx?day={t.year}-{t.month}-{t.day}&t={ii}'
     while True:
@@ -139,7 +141,7 @@ def report(sess, t, xiaoqu='宝山', temperature=37):
                 'p1$ddlXian': xian,
                 'p1$FengXDQDL': '否',
                 'p1$TongZWDLH': '否',
-                'p1$XiangXDZ': '上海大学',
+                'p1$XiangXDZ': '浦三路浦发绿城2801弄',
                 'p1$QueZHZJC$Value': '否',
                 'p1$QueZHZJC': '否',
                 'p1$DangRGL': '否',
