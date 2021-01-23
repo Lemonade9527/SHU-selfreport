@@ -98,7 +98,7 @@ def report(sess, t, xiaoqu='不在校', temperature=37):
         xian = '嘉定区'
     elif xiaoqu == '延长':
         xian = '静安区'
-    elif xiaoqu == '不在校'
+    elif xiaoqu == '不在校':
         xian = '浦东新区'
 
     url = f'https://selfreport.shu.edu.cn/XueSFX/HalfdayReport.aspx?day={t.year}-{t.month}-{t.day}&t={ii}'
