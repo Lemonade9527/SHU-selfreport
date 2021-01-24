@@ -129,7 +129,7 @@ def report(sess, t, xiaoqu='不在校', temperature=37):
                 '__VIEWSTATEGENERATOR': 'DC4D08A3',
                 'p1$ChengNuo': 'p1_ChengNuo',
                 'p1$BaoSRQ': t.strftime('%Y-%m-%d'),
-                'p1$DangQSTZK': '良好（体温不高于37.3）',
+                'p1$DangQSTZK': '良好',
 #                 'p1$TiWen': str(temperature),
 #                 'p1$TiWen': '37',
                 'p1$ZaiXiao': xiaoqu,
