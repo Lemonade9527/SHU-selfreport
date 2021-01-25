@@ -134,6 +134,8 @@ def report(sess, t, xiaoqu='不在校', temperature=37):
 #                 'p1$TiWen': '37',
                 'p1$ZaiXiao': xiaoqu,
                 'p1$MingTDX': '不到校',
+                'p1$ShiFZX': '否',
+                'p1$ShiFSH': '是',
                 'p1$ddlSheng$Value': '上海',
                 'p1$ddlSheng': '上海',
                 'p1$ddlShi$Value': '上海市',
