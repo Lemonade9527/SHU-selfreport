@@ -48,7 +48,7 @@ def report_day(sess, t):
         return False
 
     BaoSRQ = t.strftime('%Y-%m-%d')
-    XiangXDZ = '上海大学'
+    XiangXDZ = '上海大学南区14号楼1107'
 
     while True:
         try:
